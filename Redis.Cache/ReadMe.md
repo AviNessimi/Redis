@@ -34,6 +34,3 @@ But even without transactions, we can use it as a no-SQL database.
 Apart from the above-defined data structures, 
 it also supports complex data structures like bitmaps, hyperloglogs, and geospatial indexes.
 And last but not least streams.
-
-Command To Use Redis CLI
-docker exec -it redis redis-cli
