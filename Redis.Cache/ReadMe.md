@@ -34,16 +34,3 @@ But even without transactions, we can use it as a no-SQL database.
 Apart from the above-defined data structures, 
 it also supports complex data structures like bitmaps, hyperloglogs, and geospatial indexes.
 And last but not least streams.
-
-Command To Use Redis CLI
-docker exec -it redis redis-cli
-
-
-# appsettings.Development.json
-Password - The password for your Redis instance if have(For Production always create a password).
-AllowAdmin - The AllowAdmin permissions.
-Ssl - The Ssl boolean property to define the communication protocol.
-ConnectTimeout - Specify the Redis ConnectionTimeout in milliseconds
-ConnectRetry - Number attempts to retry to setup initial connection.
-Hosts - Contains a list of Redis instances hostname and port number.
-Database- Defining database to communicate, it names are in integers.
